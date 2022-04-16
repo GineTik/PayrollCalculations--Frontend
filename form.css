@@ -1,0 +1,23 @@
+form {
+    margin: 0 auto;
+    padding: 1em;
+    border: 2px solid gray;
+}
+
+.ab,
+.pow,
+.or {
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid gray;
+}
+
+h4 {
+    background: white;
+    display: inline;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
