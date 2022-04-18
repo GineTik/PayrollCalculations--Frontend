@@ -1,0 +1,13 @@
+h4 {
+    background: white;
+    display: inline;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+h1{
+    color: var(--gold);
+    }
+    h5{
+      text-align: center;
+      }
