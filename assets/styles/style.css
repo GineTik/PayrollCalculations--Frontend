@@ -9,6 +9,8 @@
   --light: #fff;
   --dark_blue: #3F3D56;
   --grey: #C0C0C0;
+  --dark_gray: #DEDEDE;
+  --dark: #000;
 
   /* RGB */
   --gold_rgb: 226, 201, 146;
@@ -26,7 +28,7 @@ body{
   background-color: #8f4bab;
 }
 td{
-  padding: 5px 10px ;
+  padding: 5px 10px;
 }
 
 ion-icon{
