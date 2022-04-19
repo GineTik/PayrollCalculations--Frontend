@@ -28,7 +28,7 @@
     height: 19px;
     top: 2px;
     left: 2px;
-
+    margin-left: 15px;
     }
 .circle__menu{
     display: flex;
@@ -39,4 +39,5 @@
         top: 177px;
         border-radius: 100%;
         background: #2A815F;
+        margin-left: -10px;
 }
