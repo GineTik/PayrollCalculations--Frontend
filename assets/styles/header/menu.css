@@ -16,11 +16,11 @@
         font-weight: 300;
     }
   
-.menu a:hover {
+/* .menu a:hover {
     background: #FAFAFA;
     border-radius: 21.5px 0px 0px 21.5px;
     color: black;
-}        
+}         */
 .menu__icon{
 
     padding-right: 5px;
@@ -39,5 +39,5 @@
         top: 177px;
         border-radius: 100%;
         background: #2A815F;
-        margin-left: -10px;
+        margin-left: -14px;
 }
