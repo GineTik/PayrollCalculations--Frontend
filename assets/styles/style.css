@@ -4,9 +4,13 @@
 @import url(header/header.css);
 :root {
   --green: #348F6C;
+  --dark_green: #2A815F;
   --gold: #E2C992;
+  --light: #fff;
   --dark_blue: #3F3D56;
   --grey: #C0C0C0;
+
+  /* RGB */
   --gold_rgb: 226, 201, 146;
 }
 body{
