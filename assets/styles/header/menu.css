@@ -1,6 +1,7 @@
 .menu {
     display: inline-block;
     padding: 0px;
+    left: 0px;
   }
     .menu__link {
         text-decoration: none;
@@ -21,5 +22,22 @@
     color: black;
 }        
 .menu__icon{
+
     padding-right: 5px;
+    width: 20px;
+    height: 19px;
+    top: 2px;
+    left: 2px;
+    margin-left: 15px;
     }
+.circle__menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+        width: 37px;
+        height: 37px;
+        top: 177px;
+        border-radius: 100%;
+        background: #2A815F;
+        margin-left: -10px;
+}
