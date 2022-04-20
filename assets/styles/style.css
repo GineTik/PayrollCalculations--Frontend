@@ -10,10 +10,19 @@
   --dark_blue: #3F3D56;
   --grey: #C0C0C0;
   --dark_gray: #DEDEDE;
-  --dark: #000;
+  --dark: #272727;
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #2D74FF;
+
+  --black-50: rgba(0, 0, 0, 0.5);
+  --white-50: rgba(255, 255, 255, 0.5);
 
   /* RGB */
   --gold_rgb: 226, 201, 146;
+  --green_rgb: 52, 143, 108;
+  --dark_green_rgb: 42, 129, 95;
+  --blue_rgb: 45, 116, 255;
 }
 body{
   background-color: var(--green);
@@ -21,7 +30,7 @@ body{
 .contact_socialmeet{
   margin: 5px 5px;
   text-align: left;
-  color:white;
+  color: var(--white);
   position: absolute;
   right: 0;
   bottom: 0;
