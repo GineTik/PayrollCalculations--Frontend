@@ -6,55 +6,36 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Automated information system "Salary calculations"</title>
 </head>
-<body>
-        <div class="header">    
-            <h1>Salary calculations</h1>
-            <div class="search">
-                <ion-icon class="search__icon" name="search-outline"></ion-icon>
-                <input class="search__input" type="search" id="search" name="search" placeholder="Пошук">
-            </div>
-            <div>
-  
-                <button id="login" class="button button--dark-green">
-                  <i class="fa fa-unlock"></i>
-                  <span>Вхід</span>
-                </button>
-                
-                <a id="register" class="button button--gold" href="/register">
-                  <i class="fa fa-user-plus"></i>
-                  <span>Реєстрація</span>
-                </a>
-            </div>
-            
-        </div>
-        <div class="menu">
-            <div class="circle__menu">
-            <a class="menu__link"><ion-icon class="menu__icon" name="home-outline"></ion-icon>Головна</a>
-            </div>
-
-            <div class="circle__menu">
-            <a class="menu__link" href="index2.html"><ion-icon class="menu__icon" name="book-outline"></ion-icon>Анкетування</a>
-            </div>
-        </div>
-        <div>
-        <a id="register" class="button button--gold" href="/register">
-            <i class="fa fa-user-plus"></i>
-            Калткулятор
-          </a>
-        </div>
+<body class="page">
     
-    <div class="contact_socialmeet">
-        <h5>Контакти/Соціальні мережі</h5>
-    <table>
-        <p>Телефон +38(067)881-42-83</p>
-        <p>Пошта: dprogfullgmail.com</p>
-        <tr>
-            <td><a href=""><img src="image/inst-logo.svg" alt="Instagram" width="30"></a></td>
-            <td><a href=""><img src="image/facebook-logo-1024x1024.png" alt="Facebook" width="30"></a></td>
-            <td><a href=""><img src="image/telegram.png" alt="Telegram" width="30"></a></td>
-        </tr>
-    </table>
-    </div>
+    <header class="header">
+        <div class="logo">
+            <img class="logo__image" src="assets/images/logo.svg">
+        </div>
+        <div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" class="search__input">
+        </div>
+        <div class="header__profile profile">
+            <div class="button button--dark-green">Вхід</div>
+            <div class="button button--gold">Реєстрація</div>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="main__sidebar sidebar">
+            <div class="menu"></div>
+            <div class="sidebar__image-block image-block">
+                <img class="image-block__image" src="assets/images/sidebar/calc.png" alt="Калькулятор">
+                <a href="#" class="image-block__button button button--gold">Анкетування</a>
+            </div>
+        </aside>
+        <div class="main__content">
+
+        </div>
+    </main>
+
+    <!-- ION-ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
