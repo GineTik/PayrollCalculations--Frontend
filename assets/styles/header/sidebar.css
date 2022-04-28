@@ -1,0 +1,32 @@
+.main__sidebar {
+    min-width: 223px;
+    max-width: 223px;
+    min-height: 100%;
+}
+.sidebar {
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar__image-block {
+    width: 100%;
+}
+.image-block {
+    background-color: var(--dark_green);
+    border-radius: 15px;
+    padding: 25px;
+}
+.image-block__button {
+    text-align: center;
+    display: block;
+    font-size: .9rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+.image-block__image {
+    width: 100%;
+    margin-bottom: 15px;
+}

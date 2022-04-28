@@ -8,16 +8,23 @@ h4 {
     font-size: 2rem;
 }
 h1{
-    color: var(--gold);
+    color: var(--dark_gray);
     font-size: 3rem;
     font-family: Raleway;
     }
-    h5{
-      text-align: center;
-      font-family: Raleway;
-      }
+
+h2 {
+    font-size: 2rem;
+}
+p{
+    color:var(--dark_gray);
+}
+
 a{
     font-family: Raleway;
     font-size: 1rem;
-    color:darkgray;
+    color: var(--blues);
+}
+a:hover{
+    text-decoration: underline;
 }

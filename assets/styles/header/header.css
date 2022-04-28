@@ -1,6 +1,20 @@
 @import url(menu.css);
+@import url(sidebar.css);
 .header{
     display: flex;
     align-items: center;
-    }
-    
+}
+
+.header__profile {
+    margin: 20px 20px 20px auto;
+}
+.profile .button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.logo {
+    width: 223px;
+}
+.logo__image {
+    margin-left: 25px;
+}
