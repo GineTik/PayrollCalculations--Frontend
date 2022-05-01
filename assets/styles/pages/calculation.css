@@ -22,11 +22,37 @@ p {
     margin-bottom: 15px;
     
 }
+form {
+    position: relative;
+    z-index: 1;
+}
 form * {
     margin-bottom: 18px;
+}
+#calc1 .pattern {
+    width: 100px;
+    top: 54%;
+    left: 97%;
+}
+#calc2 .pattern {
+    top: 43%;
+    left: 100%;
 }
 section {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+}
+.to-count__text {
+    font-size: 1rem;
+    font-family: Montserrat;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.pattern {
+    position: absolute; 
+    width: 150px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
