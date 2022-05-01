@@ -30,13 +30,12 @@ form * {
     margin-bottom: 18px;
 }
 #calc1 .pattern {
-    width: 100px;
-    top: 54%;
+    top: 55%;
     left: 97%;
 }
-#calc2 .pattern {
-    top: 43%;
-    left: 100%;
+#calc2 .pattern {   
+    top: 42%;
+    left: 97%;
 }
 section {
     max-width: 800px;
@@ -52,7 +51,6 @@ section {
 
 .pattern {
     position: absolute; 
-    width: 150px;
     transform: translate(-50%, -50%);
     z-index: -1;
 }
