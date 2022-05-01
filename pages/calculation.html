@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/pages/calculation.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="logo">
+            <img class="logo__image" src="../assets/images/logo.svg">
+        </div>
+        <div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" class="search__input">
+        </div>
+        <div class="header__profile profile">
+            <div class="button button--dark-green">Вхід</div>
+            <div class="button button--gold">Реєстрація</div>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="main__sidebar sidebar">
+            <div class="menu sidebar__menu">
+                <div class="circle__menu">
+                    <a class="menu__link"><ion-icon class="menu__icon" name="home-outline"></ion-icon>Головна</a>
+                </div>
+    
+                <div class="circle__menu">
+                    <a class="menu__link" href="#"><ion-icon class="menu__icon" name="book-outline"></ion-icon>Калькулятор</a>
+                </div>
+            </div>
+            <div class="sidebar__image-block image-block">
+                <img class="image-block__image" src="../assets/images/sidebar/calc.png" alt="Калькулятор">
+                <a href="#" class="image-block__button button button--gold">Анкетування</a>
+            </div>
+        </aside>
+        <div class="main__content">
+            <section>
+                <h1>Калькулятор</h1>
+                <p>Цей калькулятор допоможе розрахувати багато різних параметрів 
+                    та дасть чітку відповідь</p>
+                <div class="calculations">
+                    <form class="calculations__item">
+                        <h2>Розрахувати зарплату</h2>
+                        <input class="input input--gray" type="text" placeholder="Ваша зарплата">
+                        <div class="to-count">
+                            <h3>Порахувати</h3>
+                            <button class="button button--green">За місяць</button>
+                            <button class="button button--green">За рік</button>
+                            <button class="button button--green">За 10 років</button>
+                        </div>
+                    </form>
+                    <form class="calculations__item">
+                        <h2>Розрахувати 
+                            пільги</h2>
+                        <input class="input input--gray" type="text" placeholder="Ваша зарплата">
+                        <input class="input input--gray" type="text" placeholder="Країна">
+                        <div class="to-count">
+                            <h3>Порахувати</h3>
+                            <button class="button button--green">За місяць</button>
+                            <button class="button button--green">За рік</button>
+                            <button class="button button--green">За 10 років</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ION-ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

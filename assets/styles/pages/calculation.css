@@ -1,0 +1,32 @@
+.calculations {
+    display: flex;
+}
+.calculations__item {   
+    width: 350px;
+    display: inline-block;
+}
+.calculations__item:not(:last-child) {
+    margin-right: 100px;
+}
+h1 {
+    margin-bottom: 35px;
+}
+h2 {
+    line-height: .9;
+}
+h3 {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+p {
+    margin-bottom: 15px;
+    
+}
+form * {
+    margin-bottom: 18px;
+}
+section {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
