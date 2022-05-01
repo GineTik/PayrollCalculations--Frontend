@@ -9,4 +9,5 @@
     min-height: 100%;
     background-color: var(--light);
     border-top-left-radius: 25px;
+    padding: 25px;
 }
