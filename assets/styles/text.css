@@ -10,20 +10,26 @@ h4 {
 h1{
     color: var(--dark);
     font-size: 3rem;
-    font-family: Raleway;
+    font-family: Montserrat;
+    font-weight: 900; 
     }
 
 h2 {
     font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 900; 
+    color:var(--dark)
 }
 p{
-    color:var(--dark_gray);
+    font-family: Montaerrat;
+    color:var(--dark);
 }
 
 a{
-    font-family: Raleway;
+    font-family: Montaerrat;
     font-size: 1rem;
     color: var(--blue);
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;

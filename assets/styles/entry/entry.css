@@ -1,1 +1,52 @@
 @import url(../style.css);
+
+.main__content{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    z-index: 0;
+}
+.image-wrapper{
+    position: relative;
+}
+.dog{
+    width: 456px;
+    height: 456px;
+} 
+.login-button{
+    width: 339px;
+    height: 40px;
+}
+.input-style{
+    width: 339px;
+    height: 44px;
+    z-index: 1;
+}
+form{
+    border: none;
+    width: 330px;
+    margin: 0;
+}
+.frame{
+    position: absolute;
+    left: -20%;
+    top: 0%;
+    bottom: 0%;
+}
+.shape{
+    position: absolute;
+    width: 179.4px;
+    height: 80.1px;
+    left: 330px;
+    top:450px;
+}
+.pattern{
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    z-index: -1;
+}
+.main__content.h1{
+    padding: 1px;
+}
