@@ -41,6 +41,12 @@ form{
     left: 330px;
     top:430px;
 }
+.shape_1{
+    position:absolute;
+    top: 55px;
+    right: -410px;
+    z-index: -1;
+}
 .pattern{
     position: absolute;
     top: 130px;
