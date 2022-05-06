@@ -1,0 +1,42 @@
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    background-color: #FAFAFA;
+}
+
+.our-contacts {
+    width: 450px;
+}
+.our-contacts__contact {
+    width: 100%;
+}
+.contact {
+    padding: 28px 20px;
+    background-color: var(--white);
+}
+.contact__type {
+    color: var(--green);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.contact__title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1;
+}
+.our-contacts__contact:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    margin-left: 40px;
+}
+.contact-us__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: .9;
+}
