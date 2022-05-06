@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/pages/contact.css">
+</head>
+<body class="page">
+    
+    <header class="header">
+        <div class="logo">
+            <img class="logo__image" src="../assets/images/logo.svg">
+        </div>
+        <div class="search">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" class="search__input">
+        </div>
+        <div class="header__profile profile">
+            <div class="button button--dark-green"> <a href="login.html">Вхід</a> </div>
+            <div class="button button--gold"> <a href="registration.html">Реєстрація</a></div>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="main__sidebar sidebar">
+            <div class="menu sidebar__menu">
+                <div class="circle__menu">
+                    <a class="menu__link"><ion-icon class="menu__icon" name="home-outline"></ion-icon>Головна</a>
+                </div>
+    
+                <div class="circle__menu">
+                    <a class="menu__link" href="#"><ion-icon class="menu__icon" name="book-outline"></ion-icon>Калькулятор</a>
+                </div>
+            </div>
+            <div class="sidebar__image-block image-block">
+                <img class="image-block__image" src="../assets/images/sidebar/calc.png" alt="Калькулятор">
+                <a href="#" class="image-block__button button button--gold">Анкетування</a>
+            </div>
+        </aside>
+        <div class="main__content">
+            <div class="our-contacts">
+                <div class="our-contacts__contact contact">
+                    <span class="contact__type">адрес</span>
+                    <h3 class="contact__title">якись там адрес</h3>
+                </div>
+                <div class="our-contacts__contact contact">
+                    <span class="contact__type">телефон</span>
+                    <h3 class="contact__title">+38(067)000-00-00</h3>
+                </div>
+                <div class="our-contacts__contact contact">
+                    <span class="contact__type">ще один телефон</span>
+                    <h3 class="contact__title">+38(067)000-00-00</h3>
+                </div>
+                <div class="our-contacts__contact contact">
+                    <span class="contact__type">донатний гаманець</span>
+                    <h3 class="contact__title">якись там номер гаманцю</h3>
+                </div>
+            </div>
+            <form class="contact-us">
+                <h1 class="contact-us__title">Звяжіться з нами</h1>
+                <input type="text" placeholder="Ваше ім'я" class="input input--gray">
+                <input type="text" placeholder="Почта або телефон" class="input input--gray">
+                <textarea placeholder="Повідомлення" class="input input--gray"></textarea>
+                <button class="button button--green">Відправити</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- ION-ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
