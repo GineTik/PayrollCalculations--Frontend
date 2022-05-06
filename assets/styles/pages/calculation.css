@@ -42,11 +42,15 @@ section {
     width: 100%;
     margin: 0 auto;
 }
+.to-count .button {
+    width: auto;
+}
 .to-count__text {
     font-size: 1rem;
     font-family: Montserrat;
     margin-top: 6px;
     margin-bottom: 6px;
+    width: 100%;
 }
 
 .pattern {
