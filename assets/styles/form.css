@@ -79,7 +79,7 @@ form .input {
 	transition: .2s opacity;
 	z-index: 10;
 }
-.select:active .select__list {
+.select--active .select__list {
 	pointer-events: auto;
 	opacity: 1;
 }
